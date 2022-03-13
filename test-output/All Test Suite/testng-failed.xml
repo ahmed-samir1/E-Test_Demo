@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+    <test thread-count="5" name="D:/AutomationFromScratch/PageObjectModel/src/test/java/Tests(failed)">
+        <classes>
+            <class name="Tests.UserRegistrationTests.UserRegistrationTest">
+                <methods>
+                    <include name="setupEnvironmentBeforeRunningTestCase"/>
+                    <include name="quitDriver"/>
+                    <include name="prepareForTheNextTestCase"/>
+                    <include name="setUpEnvironmentForTestSuite"/>
+                    <include name="screenshotOnFailure"/>
+                    <include name="testUserCanRegisterSuccessfully"/>
+                </methods>
+            </class> <!-- Tests.UserRegistrationTests.UserRegistrationTest -->
+            <class name="Tests.EmailFriendTests.EmailFriendTest">
+                <methods>
+                    <include name="setupEnvironmentBeforeRunningTestCase"/>
+                    <include name="quitDriver"/>
+                    <include name="prepareForTheNextTestCase"/>
+                    <include name="setUpEnvironmentForTestSuite"/>
+                    <include name="testSendEmailToFriend"/>
+                    <include name="screenshotOnFailure"/>
+                </methods>
+            </class> <!-- Tests.EmailFriendTests.EmailFriendTest -->
+        </classes>
+    </test> <!-- D:/AutomationFromScratch/PageObjectModel/src/test/java/Tests(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
